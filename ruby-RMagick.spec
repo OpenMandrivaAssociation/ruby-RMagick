@@ -1,5 +1,5 @@
 %define rbname RMagick
-%define version 1.15.3
+%define version 1.15.6
 %define release %mkrel 1
 
 Summary: ImageMagick extension for Ruby
@@ -11,8 +11,9 @@ License: BSD-like
 URL: http://rmagick.rubyforge.org
 Source0: %{rbname}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
+BuildRequires: imagemagick
+BuildRequires: libmagick-devel
 BuildRequires: ruby-devel
-BuildRequires: ImageMagick libMagick-devel
 Provides: ruby-rvg
 
 %description
