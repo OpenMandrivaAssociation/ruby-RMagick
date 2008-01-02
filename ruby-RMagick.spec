@@ -10,6 +10,7 @@ Group: Development/Ruby
 License: BSD-like
 URL: http://rmagick.rubyforge.org
 Source0: %{rbname}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
 BuildRequires: imagemagick
 BuildRequires: libmagick-devel
 BuildRequires: ruby-devel
