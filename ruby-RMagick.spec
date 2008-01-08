@@ -32,6 +32,8 @@ make
 %install
 [ "%{buildroot}" != "/" ] && %__rm -rf %{buildroot}
 ruby setup.rb install --prefix=%buildroot
+rm -rf %{buildroot}%{_datadir}/doc/%{name}-%{version}
+
 for f in `find doc examples -name \*.rb`
 do
 	if head -n1 "$f" | grep '^#!' >/dev/null;
