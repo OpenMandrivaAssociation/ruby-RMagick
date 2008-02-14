@@ -1,6 +1,6 @@
 %define rbname RMagick
 %define version 1.15.6
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: ImageMagick extension for Ruby
 Name: ruby-%{rbname}
