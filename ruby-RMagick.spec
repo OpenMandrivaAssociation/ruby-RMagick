@@ -2,7 +2,7 @@
 
 Summary:	ImageMagick extension for Ruby
 Name:		ruby-%{rbname}
-Version:	2.5.1
+Version:	2.5.2
 Release:	%{mkrel 1}
 Group:		Development/Ruby
 License:	BSD-like
