@@ -10,7 +10,7 @@ URL:		http://rmagick.rubyforge.org
 Source0:	%{rbname}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 BuildRequires:	imagemagick
-BuildRequires:	libmagick-devel
+BuildRequires:	imagemagick-devel
 BuildRequires:	ruby-devel
 Provides:	ruby-rvg
 
