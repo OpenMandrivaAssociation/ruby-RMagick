@@ -2,7 +2,7 @@
 
 Summary:	ImageMagick extension for Ruby
 Name:		ruby-%{rbname}
-Version:	2.5.2
+Version:	2.9.0
 Release:	%{mkrel 1}
 Group:		Development/Ruby
 License:	BSD-like
@@ -23,7 +23,7 @@ This release includes RVG.
 
 %build
 sed -i -e 's/-ldotneato//' ext/RMagick/extconf.rb
-ruby setup.rb config --doc-dir=%{buildroot}%{_datadir}/doc/%{name}-%{version}
+ruby setup.rb config --doc-dir=%{buildroot}%{_datadir}/doc/%{name}-%{version} --disable-htmldoc
 ruby setup.rb setup
 
 %install
