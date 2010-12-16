@@ -3,7 +3,7 @@
 Summary:	ImageMagick extension for Ruby
 Name:		ruby-%{rbname}
 Version:	2.13.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		Development/Ruby
 License:	BSD-like
 URL:		http://rmagick.rubyforge.org
