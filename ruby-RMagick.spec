@@ -7,7 +7,7 @@ Version:	2.13.1
 Release:	5
 Group:		Development/Ruby
 License:	BSD-like
-URL:		http://rmagick.rubyforge.org
+URL:		https://rmagick.rubyforge.org
 Source0:	%{rbname}-%{version}.tar.bz2
 BuildRequires:	imagemagick
 BuildRequires:	imagemagick-devel
